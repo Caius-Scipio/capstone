@@ -6,11 +6,11 @@ import Footer from "./Components/Footer"
 
 function App() {
   return (
-    <div>
+    <div role="document">
       <React.Fragment>
-        <Nav />
-        <Main />
-        <Footer />
+        <Nav role="navigation"/>
+        <Main role="main"/>
+        <Footer role="navigation"/>
       </React.Fragment>
     </div>
   );

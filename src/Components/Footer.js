@@ -6,33 +6,33 @@ const Footer = () => {
     <footer>
       <section>
         <div class="footer_image">
-          <img src={logo_small} />
+          <img src={logo_small} alt="restaurant logo" />
         </div>
         <div>
           <p>Document Navigation</p>
-          <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Menu</li>
-            <li>Reservations</li>
-            <li>Order Online</li>
-            <li>Login</li>
+          <ul role="navigation list">
+            <li role="list item">Home</li>
+            <li role="list item">About</li>
+            <li role="list item">Menu</li>
+            <li role="list item">Reservations</li>
+            <li role="list item">Order Online</li>
+            <li role="list item">Login</li>
           </ul>
         </div>
         <div>
           <p>Contact</p>
-        <ul>
-          <li>Address</li>
-          <li>Phone Number</li>
-          <li>Email</li>
+        <ul role="list">
+          <li role="list item">Address</li>
+          <li role="list item">Phone Number</li>
+          <li role="list item">Email</li>
         </ul>
         </div>
         <div>
           <p>Social Media Links</p>
-          <ul>
-            <li>Address</li>
-            <li>Phone Number</li>
-            <li>Email</li>
+          <ul role="list">
+            <li role="list item">Address</li>
+            <li role="list item">Phone Number</li>
+            <li role="list item">Email</li>
           </ul>
         </div>
       </section>

@@ -8,10 +8,10 @@ const Header = () => {
         <header>
             <section>
                <div>
-                    <h2>Little Lemon</h2>
-                    <h3>Chicago</h3>
-                    <p>We are a family owned Mediterraneran restaurant, focused on traditional recipes servred with a modern twist.</p>
-                    <Link to="/Booking"><button aria-label="On Click">Reserve Table</button></Link>
+                    <h2 aria-level="1">Little Lemon</h2>
+                    <h3 aria-level="2">Chicago</h3>
+                    <p role="content info" >We are a family owned Mediterraneran restaurant, focused on traditional recipes servred with a modern twist.</p>
+                    <Link to="/Booking"><button aria-label="On Click" role="button">Reserve Table</button></Link>
                 </div>
                 <div>
                     <img src={Header_Image} />

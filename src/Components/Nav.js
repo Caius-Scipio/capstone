@@ -5,16 +5,16 @@ const Nav = () => {
     return(
         <nav>
             <section>
-                <img src={main_logo} alt="Little Lemon Logo" ></img>
+                <img src={main_logo} alt="Little Lemon Logo" role="presentation"></img>
             </section>
             <section>
-                <ul>
-                    <li><a>Home</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Menu</a></li>
-                    <li><a>Reservations</a></li>
-                    <li><a>Order Online</a></li>
-                    <li><a>Login</a></li>
+                <ul role="list">
+                    <li role="list item"><a>Home</a></li>
+                    <li role="list item"><a>About</a></li>
+                    <li role="list item"><a>Menu</a></li>
+                    <li role="list item"><a>Reservations</a></li>
+                    <li role="list item"><a>Order Online</a></li>
+                    <li role="list item"><a>Login</a></li>
                 </ul>
             </section>
         </nav>

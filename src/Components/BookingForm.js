@@ -6,32 +6,51 @@ const BookingForm = (props) => {
    const [occasion, setOccasion] = useState("");
    const [guests, setGuests] = useState("");
    const [date, setDate] = useState("");
-   const [times, setTimes] = useState("");
+   const [times, setTimes] = useState("")
+   const [currentDate, setCurrentDate] = useState(new Date());
 
-   const handleSumbit = (e) => {
+   const handleSubmit = (e) => {
     e.preventDefault();
+    if (date < currentDate) {
+      alert("Please enter a date in the future");
+      return;
+    }
+    if (guests > 10) {
+      alert("The maximum number of guests is 10");
+      guests = 10;
+    }
+    if (occasion === "") {
+      alert("Please select an occasion");
+      return;
+    }
     props.submitForm(e);
-   };
+  };
 
-   const handleChange = (e) => {
-    setDate(e);
-    props.dispatch(e);
-   };
+const handleChange = (e) => {
+  setDate(e);
+  setCurrentDate(e);
+  if (guests > 10) {
+    alert("The maximum number of guests is 10");
+    guests = 10;
+  }
+  setGuests(e);
+  props.dispatch(e);
+};
 
   return (
     <header>
       <section>
-        <form onSubmit={handleSumbit}>
+        <form onSubmit={handleSubmit}>
           <fieldset>
             <div>
               <label htmlFor="book-date">Choose Date</label>
-              <input id="book-date" value={date} onChange={(e) => handleChange(e.target.value)} type="date" required/>
+              <input id="book-date" value={date} onChange={(e) => handleChange(e.target.value)} type="date" min={currentDate} required/>
             </div>
             <div>
               <label htmlFor="book-time">Choose Time</label>
               <select id="book-time" value={times} onChange={(e) => setTimes(e.target.value)} required>
                 <option value="">Select a Time</option>
-                {props.availableTimes.availableTimes.map(availableTimes => {return <option key={availableTimes}>{availableTimes}</option>})}
+               {props.availableTimes.availableTimes.map(availableTimes => {return <option key={availableTimes}>{availableTimes}</option>})}
               </select>
             </div>
             <div>
@@ -43,12 +62,11 @@ const BookingForm = (props) => {
               <select id="book-occasion" key={occasion} value={occasion} onChange={(e) => setOccasion(e.target.value)} required>
                 <option value="">Select an Option</option>
                 <option>Birthday</option>
-                <option>Engagement</option>
                 <option>Anniversary</option>
               </select>
             </div>
             <div>
-              <input aria-label="On Click" type={"submit"} value={"Reserve"}></input>
+              <input aria-label="On Click" type={"submit"} value={"Make Your Reservation"}></input>
             </div>
           </fieldset>
         </form>
