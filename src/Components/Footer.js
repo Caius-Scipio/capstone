@@ -1,3 +1,4 @@
+/*
 import React from "react"
 import logo_small from "../Images/logo-small.png"
 
@@ -21,18 +22,18 @@ const Footer = () => {
         </div>
         <div>
           <p>Contact</p>
-        <ul role="list">
-          <li role="list item">Address</li>
-          <li role="list item">Phone Number</li>
-          <li role="list item">Email</li>
-        </ul>
-        </div>
-        <div>
-          <p>Social Media Links</p>
           <ul role="list">
             <li role="list item">Address</li>
             <li role="list item">Phone Number</li>
             <li role="list item">Email</li>
+          </ul>
+        </div>
+        <div>
+          <p>Social Media Links</p>
+          <ul role="list">
+            <li role="list item">Instagram</li>
+            <li role="list item">Facebook</li>
+            <li role="list item">Twitter</li>
           </ul>
         </div>
       </section>
@@ -41,3 +42,4 @@ const Footer = () => {
 }
 
 export default Footer;
+*/

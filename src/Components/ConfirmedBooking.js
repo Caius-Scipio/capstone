@@ -1,3 +1,4 @@
+/*
 import React from "react";
 
 const ConfirmedBooking = () => {
@@ -17,3 +18,4 @@ const ConfirmedBooking = () => {
 }
 
 export default ConfirmedBooking;
+*/
