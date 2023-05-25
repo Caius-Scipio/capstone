@@ -1,4 +1,3 @@
-/*
 import React from "react"
 import logo_small from "../Images/logo-small.png"
 
@@ -12,28 +11,28 @@ const Footer = () => {
         <div>
           <p>Document Navigation</p>
           <ul role="navigation list">
-            <li role="list item">Home</li>
-            <li role="list item">About</li>
-            <li role="list item">Menu</li>
-            <li role="list item">Reservations</li>
-            <li role="list item">Order Online</li>
-            <li role="list item">Login</li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Menu</li>
+            <li>Reservations</li>
+            <li>Order Online</li>
+            <li>Login</li>
           </ul>
         </div>
         <div>
           <p>Contact</p>
-          <ul role="list">
-            <li role="list item">Address</li>
-            <li role="list item">Phone Number</li>
-            <li role="list item">Email</li>
+          <ul>
+            <li>Address</li>
+            <li>Phone Number</li>
+            <li>Email</li>
           </ul>
         </div>
         <div>
           <p>Social Media Links</p>
-          <ul role="list">
-            <li role="list item">Instagram</li>
-            <li role="list item">Facebook</li>
-            <li role="list item">Twitter</li>
+          <ul>
+            <li>Instagram</li>
+            <li>Facebook</li>
+            <li>Twitter</li>
           </ul>
         </div>
       </section>
@@ -42,4 +41,3 @@ const Footer = () => {
 }
 
 export default Footer;
-*/

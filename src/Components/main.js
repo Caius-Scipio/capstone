@@ -1,3 +1,49 @@
+import React from "react";
+import bruschetta from "../Images/bruschetta.jpg"
+import saladgreek from "../Images/salad-greek.jpg"
+import lemondessert from "../Images/lemon-dessert.jpg"
+
+const Main = () => {
+  return (
+    <>
+      <div class="main__header">
+        <h1>This Week's Specials!</h1>
+        <p><button>Order Online</button></p>
+      </div>
+      <div class="container">
+        <div class="card">
+          <img src={ saladgreek } alt="greek salad" />
+          <section class="product">
+            <h2>Greek Salad</h2>
+            <p class="price">$19.99</p>
+          </section>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p><button>Order Online</button></p>
+        </div>
+        <div class="card">
+          <img src={ bruschetta } alt="bruschetta" />
+          <section class="product">
+            <h2>Bruschetta</h2>
+            <p class="price">$19.99</p>
+          </section>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p><button>Order Online</button></p>
+        </div>
+        <div class="card">
+          <img src={ lemondessert } alt="lemon dessert" />
+          <section class="product">
+            <h2>Lemmon Dessert</h2>
+            <p class="price">$19.99</p>
+          </section>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p><button>Order Online</button></p>
+        </div>
+      </div>
+    </>
+  )
+}
+
+export default Main;
 /*
 import React, { useReducer } from "react";
 import { Route, Routes, useNavigate } from "react-router-dom";
