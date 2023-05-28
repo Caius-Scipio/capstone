@@ -2,7 +2,6 @@ import React from "react";
 import Header_Image from "../Images/header-img.jpg"
 import { Link } from "react-router-dom";
 
-
 const Header = () => {
     return(
         <header>

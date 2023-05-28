@@ -9,13 +9,13 @@ const Nav = () => {
                 <img src={main_logo} alt="Little Lemon Logo" role="presentation"></img>
             </section>
             <section>
-                <ul role="list">
-                    <li role="list item"><a>Home</a></li>
-                    <li role="list item"><a>About</a></li>
-                    <li role="list item"><a>Menu</a></li>
-                    <li role="list item"><Link to="/BookingForm">Reservations</Link></li>
-                    <li role="list item"><a>Order Online</a></li>
-                    <li role="list item"><a>Login</a></li>
+                <ul>
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Menu</a></li>
+                    <li><Link to="/Booking" style={{ textDecoration: 'none' }}>Reservations</Link></li>
+                    <li><a>Order Online</a></li>
+                    <li><a>Login</a></li>
                 </ul>
             </section>
         </nav>

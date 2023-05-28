@@ -1,7 +1,7 @@
 import React from "react";
 import bruschetta from "../Images/bruschetta.jpg"
 import saladgreek from "../Images/salad-greek.jpg"
-import lemondessert from "../Images/lemon-dessert.jpg"
+import lemondessert from "../Images/lemon dessert.jpg"
 
 const Main = () => {
   return (
@@ -15,27 +15,27 @@ const Main = () => {
           <img src={ saladgreek } alt="greek salad" />
           <section class="product">
             <h2>Greek Salad</h2>
-            <p class="price">$19.99</p>
+            <p class="price">$12.99</p>
           </section>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p>The famous Greek salad of crispy lettuce, peppers, olives, and out Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons.</p>
           <p><button>Order Online</button></p>
         </div>
         <div class="card">
           <img src={ bruschetta } alt="bruschetta" />
           <section class="product">
             <h2>Bruschetta</h2>
-            <p class="price">$19.99</p>
+            <p class="price">$5.99</p>
           </section>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p>Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olice oil.</p>
           <p><button>Order Online</button></p>
         </div>
         <div class="card">
           <img src={ lemondessert } alt="lemon dessert" />
           <section class="product">
             <h2>Lemmon Dessert</h2>
-            <p class="price">$19.99</p>
+            <p class="price">$5.00</p>
           </section>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p>This comes straight from grandma's recipie book, every last ingredient has been sourced and is as authentic as can be imagined.</p>
           <p><button>Order Online</button></p>
         </div>
       </div>
@@ -46,8 +46,8 @@ const Main = () => {
 export default Main;
 /*
 import React, { useReducer } from "react";
-import { Route, Routes, useNavigate } from "react-router-dom";
 import Booking from "./Booking";
+import { Route, Routes, useNavigate } from "react-router-dom";
 import ConfirmedBooking from "./ConfirmedBooking";
 import Header from "./header";
 import { useState } from "react";
