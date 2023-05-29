@@ -1,6 +1,5 @@
 import React from "react";
 import main_logo from "../Images/logo-main.png"
-import { Link } from "react-router-dom";
 
 const Nav = () => {
     return(
@@ -13,7 +12,7 @@ const Nav = () => {
                     <li><a>Home</a></li>
                     <li><a>About</a></li>
                     <li><a>Menu</a></li>
-                    <li><Link to="/Booking" style={{ textDecoration: 'none' }}>Reservations</Link></li>
+                    <li><a>Reservations</a></li>
                     <li><a>Order Online</a></li>
                     <li><a>Login</a></li>
                 </ul>

@@ -1,27 +1,12 @@
 import React from "react";
-import Header_Image from "../Images/header-img.jpg"
-import { Link } from "react-router-dom";
 import bruschetta from "../Images/bruschetta.jpg"
 import saladgreek from "../Images/salad-greek.jpg"
 import lemondessert from "../Images/lemon dessert.jpg"
 
-const Header = () => {
-    return(
-        <>
-        <header>
-            <section>
-               <div>
-                    <h2 aria-level="1">Little Lemon</h2>
-                    <h3 aria-level="2">Chicago</h3>
-                    <p>We are a family owned Mediterraneran restaurant, focused on traditional recipes servred with a modern twist.</p>
-                    <Link to="/Booking"><button aria-label="button">Reserve a Table</button></Link>
-                </div>
-                <div>
-                    <img src={Header_Image} alt="serving bruschetta" />
-                </div>
-            </section>
-        </header>
-        <div class="main__header">
+const Specials = () => {
+  return (
+    <>
+      <div class="main__header">
         <h1>This Week's Specials!</h1>
         <p><button>Order Online</button></p>
       </div>
@@ -54,8 +39,8 @@ const Header = () => {
           <p><button>Order Online</button></p>
         </div>
       </div>
-      </>
-    )
+    </>
+  )
 }
 
-export default Header;
+export default Specials;
