@@ -5,11 +5,11 @@ const Footer = () => {
   return(
     <footer>
       <section>
-        <div class="footer_image">
+        <div className="footer_image">
           <img src={logo_small} alt="restaurant logo" />
         </div>
         <div>
-          <p>Document Navigation</p>
+          <p>Document Navigation:</p>
           <ul role="navigation list">
             <li>Home</li>
             <li>About</li>
@@ -20,7 +20,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <p>Contact</p>
+          <p>Contact:</p>
           <ul>
             <li>Address</li>
             <li>Phone Number</li>
@@ -28,7 +28,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <p>Social Media Links</p>
+          <p>Social Media Links:</p>
           <ul>
             <li>Instagram</li>
             <li>Facebook</li>
