@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/capstone/static/css/main.f9ae4c00.css",
+    "main.js": "/capstone/static/js/main.319964c1.js",
+    "static/js/787.3ecd7fac.chunk.js": "/capstone/static/js/787.3ecd7fac.chunk.js",
+    "static/media/salad-greek.jpg": "/capstone/static/media/salad-greek.b3b48bb82fcaced0c858.jpg",
+    "static/media/header-img.jpg": "/capstone/static/media/header-img.8c18e3cf861cd4fa9d0a.jpg",
+    "static/media/bruschetta.jpg": "/capstone/static/media/bruschetta.cc98b69b023d1447eeba.jpg",
+    "static/media/logo-small.png": "/capstone/static/media/logo-small.2c859235d6c57bb54176.png",
+    "static/media/logo-main.png": "/capstone/static/media/logo-main.d4cae6fac8384c2dae04.png",
+    "index.html": "/capstone/index.html",
+    "main.f9ae4c00.css.map": "/capstone/static/css/main.f9ae4c00.css.map",
+    "main.319964c1.js.map": "/capstone/static/js/main.319964c1.js.map",
+    "787.3ecd7fac.chunk.js.map": "/capstone/static/js/787.3ecd7fac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9ae4c00.css",
+    "static/js/main.319964c1.js"
+  ]
+}
