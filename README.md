@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Little Lemon - Booking Table
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This was the final project in my META's Front-End Developer Professional Certificate. The only link and function that works is the table booking button in the header. Styling is based on a style guide.
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### The challenge
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  - All pages will preserve the style guide
+  - Have a Reserve-A-Table button on the main page
+  - Reservation screen that will include an element to input the date, the time, the number of diners, the occasion, and a button to link to the next screen
+  - Reservation form that will include the customer's first and last name, contact information, required fields should be indicated with relevant warnings, a button to confirm or submit the customer information
+  - A successful reservation submission confirmation message
 
-### `npm test`
+### Screenshot
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![](./src/Images/little_lemon_homepage.png)
 
-### `npm run build`
+## My process
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Built with
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Semantic HTML5 markup
+- CSS custom properties
+- REACT
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### What I learned
 
-### `npm run eject`
+Making this webpage was a quite the challenege due to the amount of material I have to incoroporate, and if I had to summarize the three major takeaways, I'd have to say:
+- Bringing together multiple skills from throughout the 7-month course to solve this authentic real-world problem by building an app.
+- Requiring me to think differently about building a page and how to go about doing that.
+- Working through the issues I had with classmates taught me how to ask better questions to get more specific advice about the problem I had at hand.
+- And being the first time took a project from guidelines, to wireframe, to prototype, to production.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Here is some code I am particularly proud of, or think was interesting:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```css
+* {
+  --primary-1: #495E57;
+  --primary-2: #f4ce14;
+  --black: #000000;
+  --white: #ffffff;
+  --secondary-1: #ee9972;
+  --secondary-2: #fbdabb;
+  --highlight-1: #edefee;
+  --highlight-2: #333333;
+}
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Continued development
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This webpage is far from being done yet. Here are some things I'd like to do in the future with it:
+  - Fix styling issues
+  - Make a functional navigation bar
+  - Adding more interactivity
+  - and the list goes on
 
-## Learn More
+### Useful resources
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [META](https://www.coursera.org/professional-certificates/meta-front-end-developer) - This is where I got the project started from.
+- [w3schools](https://www.w3schools.com/) - My reference to remember the syntax and possibilites.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Author
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Website - [Caius Scipio](https://caius-scipio.github.io/Portfolio/)
